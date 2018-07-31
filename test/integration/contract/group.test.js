@@ -94,6 +94,7 @@ describe('group test', () => {
       type: 1,
       fee: 20000000,
       senderId: groupAccount.address,
+      mode: 1,
       args: [
         11230,
         group.members[1].address,
